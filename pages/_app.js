@@ -4,7 +4,6 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import { Card, Col, Container, FormControl, Row } from "react-bootstrap";
 
 const queryClient = new QueryClient();
 

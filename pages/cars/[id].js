@@ -3,7 +3,7 @@ import { Container, Row } from "react-bootstrap";
 
 const fetchCar = async (id) => {
   const { data } = await axios.get(
-    `http://localhost:3003/api/cars?id=${escape(id)}`
+    `https://next-ssr-example-two.vercel.app/api/cars?id=${escape(id)}`
   );
   return data;
 };
